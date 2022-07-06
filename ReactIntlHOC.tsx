@@ -13,4 +13,8 @@ function withIntl<P extends object>(Component: React.ComponentType<P>): any {
   }
 };
 
+export type IntlProps = {
+  intl?: any;
+};
+
 export default withIntl;
